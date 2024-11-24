@@ -1,7 +1,6 @@
-
 .complaint-form {
   margin: 20px auto;
-  width: 90%;
+  width: 80%;
   background-color: #fff7f0;
   padding: 20px;
   border: 1px solid #e27145;
@@ -21,8 +20,7 @@ label {
 
 input,
 select,
-textarea,
-button {
+textarea {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
@@ -30,14 +28,18 @@ button {
   border-radius: 5px;
 }
 
-button {
+.submit-button {
   background-color: #e27145;
   color: white;
   border: none;
   font-size: 16px;
   font-weight: bold;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto; /* This centers the button horizontally */
+  display: block; /* Allows margin: 0 auto to work */
 }
 
-button:hover {
+.submit-button:hover {
   background-color: #e27145;
 }

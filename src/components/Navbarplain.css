@@ -1,7 +1,6 @@
 .navbar {
   display: flex;
   background-color: #e27145;
-  padding: 10px 0;
-  /* width: 100%; */
-  max-width: 1600px; /* Optional: Set a maximum width for the navbar */
+  padding: 20px 0;
+  max-width: 2000px; /* Optional: Set a maximum width for the navbar */
 }

@@ -1,5 +1,5 @@
 
-import './Navbar.css';
+import './Navbarstu.css';
 
 const Navbar = () => {
   return (

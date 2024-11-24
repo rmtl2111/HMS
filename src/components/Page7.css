@@ -1,8 +1,10 @@
-body{
+body {
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
-team-info-container {
+.team-info-container {
   font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
@@ -67,7 +69,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .button-container button {

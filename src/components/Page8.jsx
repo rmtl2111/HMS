@@ -35,12 +35,15 @@ const App = () => {
       case "Electrician":
         return [
           { value: "Room Switch repair", label: "Wiring" },
-          { value: "Room Light Repair", label: "Appliance Repair" },
-          { value: "Balcony Light Repair", label: "Appliance Repair" },
-          { value: "Room Fan Repair", label: "Appliance Repair" },
-          { value: "Room Exhaust Fan Repair", label: "Appliance Repair" },
-          { value: "Corridor Light Repair", label: "Appliance Repair" },
-          { value: "Bathroom Light Repair", label: "Appliance Repair" },
+          { value: "Room Light Repair", label: "Room Light Repair" },
+          { value: "Balcony Light Repair", label: "Balcony Light repair" },
+          { value: "Room Fan Repair", label: "Room Fan Repair" },
+          {
+            value: "Room Exhaust Fan Repair",
+            label: "Room Exhaust Fan Repair",
+          },
+          { value: "Corridor Light Repair", label: "Corridor Light Repair" },
+          { value: "Bathroom Light Repair", label: "Bathroom Light Repair" },
         ];
       case "Plumber":
         return [
@@ -53,6 +56,31 @@ const App = () => {
           { value: "Drain Cleaning", label: "Drain Cleaning" },
         ];
       case "Gardner":
+        return [
+          { value: "Leak Repair", label: "Leak Repair" },
+          { value: "Drain Cleaning", label: "Drain Cleaning" },
+        ];
+      case "RO Person":
+        return [
+          { value: "Leak Repair", label: "Leak Repair" },
+          { value: "Drain Cleaning", label: "Drain Cleaning" },
+        ];
+      case "Sweeper":
+        return [
+          { value: "Leak Repair", label: "Leak Repair" },
+          { value: "Drain Cleaning", label: "Drain Cleaning" },
+        ];
+      case "Mason":
+        return [
+          { value: "Leak Repair", label: "Leak Repair" },
+          { value: "Drain Cleaning", label: "Drain Cleaning" },
+        ];
+      case "Weight Lifter":
+        return [
+          { value: "Leak Repair", label: "Leak Repair" },
+          { value: "Drain Cleaning", label: "Drain Cleaning" },
+        ];
+      case "Painter":
         return [
           { value: "Leak Repair", label: "Leak Repair" },
           { value: "Drain Cleaning", label: "Drain Cleaning" },
@@ -197,9 +225,9 @@ const App = () => {
             onChange={handleInputChange}
             placeholder="Write your comments here"
           ></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+    </div>
+    <button type="submit" className="submit-button">Submit</button>
+    </form>
     </div>
   );
 };
